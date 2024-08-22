@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <!-- 这里可以链接外部 CSS 文件 -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- 或者直接在内部写 CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50bfa0;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+        header ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        header li {
+            display: inline;
+            padding: 0 15px 0 15px;
+        }
+        main {
+            padding: 20px;
+            float: left;
+            width: 70%;
+        }
+        aside {
+            float: right;
+            width: 30%;
+            background: #e2e2e2;
+            padding: 20px;
+        }
+        footer {
+            padding: 20px;
+            text-align: center;
+            background: #4682b4;
+            color: white;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>我的博客</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">关于我</a></li>
+                    <li><a href="#">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>博客标题</h1>
+            <p>发布日期：2024-08-22</p>
+            <hr>
+            <article>
+                <p>这里是你的博客正文内容...</p>
+            </article>
+        </div>
+    </main>
+
+    <aside>
+        <div class="container">
+            <h3>关于作者</h3>
+            <p>这里是关于作者的一些介绍。</p>
+            <h3>热门文章</h3>
+            <ul>
+                <li><a href="#">文章标题一</a></li>
+                <li><a href="#">文章标题二</a></li>
+                <li><a href="#">文章标题三</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="container">
+            <p>版权所有 © 2024 我的博客</p>
+        </div>
+    </footer>
+</body>
+</html>
